@@ -17,4 +17,4 @@ async def create_user(user:User):
 #handling response
 @app.get("/users/{user_id}",response_model=User)
 async def get_user(user_id:int):
-    return {"name":"usama", "age":18}
+    return {"name":"usama", "age":20}
