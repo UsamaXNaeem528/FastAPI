@@ -1,6 +1,6 @@
 #-------------Request and response bodies-----------------#
 
-#handling request
+#handling request from client
 from fastapi import FastAPI
 from pydantic import BaseModel
 
